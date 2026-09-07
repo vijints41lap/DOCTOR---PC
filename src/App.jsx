@@ -440,21 +440,7 @@ function App() {
             </div>
 
           </div>
-
-          <div className="contact-detail">
-          <div>📷</div>
-            <div>
-              <small>INSTAGRAM</small>
-                <a
-                  href="https://www.instagram.com/Amalu_47_/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="instagram-link"
-                  >
-                  Amalu_47_
-                </a>
-            </div>
-          </div>
+          
 
           <div className="contact-card">
 
