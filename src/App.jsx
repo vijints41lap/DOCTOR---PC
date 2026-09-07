@@ -1,4 +1,5 @@
 import "./App.css";
+import { Instagram } from "lucide-react";
 
 function App() {
   const services = [
@@ -56,6 +57,16 @@ function App() {
           <a href="#about">About</a>
           <a href="#contact">Contact</a>
         </div>
+
+        <a
+          className="instagram-nav"
+          href="https://www.instagram.com/Amalu_47_/"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="Instagram"
+          >
+          <Instagram size={23} strokeWidth={2} />
+        </a>
 
         <a
           className="nav-button"
