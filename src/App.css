@@ -121,6 +121,33 @@ a {
   letter-spacing: 1px;
   margin-bottom: 25px;
 }
+.instagram-button {
+  display: inline-block;
+  padding: 14px 23px;
+  border-radius: 7px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.instagram-button:hover {
+  border-color: #e1306c;
+  color: #e1306c;
+  transform: translateY(-3px);
+}
+
+.instagram-link {
+  color: #e1306c;
+  font-size: 13px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.instagram-link:hover {
+  opacity: 0.8;
+}
 
 .hero h1 {
   font-family: "Space Grotesk", sans-serif;
@@ -196,33 +223,7 @@ a {
 .hero-info strong {
   color: #36a3ff;
 }
-.instagram-button {
-  display: inline-block;
-  padding: 14px 23px;
-  border-radius: 7px;
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  color: white;
-  font-weight: 600;
-  font-size: 14px;
-  transition: 0.3s;
-}
 
-.instagram-button:hover {
-  border-color: #e1306c;
-  color: #e1306c;
-  transform: translateY(-3px);
-}
-
-.instagram-link {
-  color: #e1306c;
-  font-size: 13px;
-  font-weight: 600;
-  transition: 0.3s;
-}
-
-.instagram-link:hover {
-  opacity: 0.8;
-}
 
 /* =========================
    HERO LAPTOP
