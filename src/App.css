@@ -1063,3 +1063,37 @@ footer {
   }
 
 }
+
+@media (max-width: 650px) {
+
+  .navbar {
+    height: 70px;
+    padding: 0 5%;
+  }
+
+  .logo {
+    font-size: 23px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .instagram-nav {
+    display: flex;
+    font-size: 11px;
+    gap: 5px;
+  }
+
+  .instagram-nav svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .nav-button {
+    display: block;
+    padding: 8px 12px;
+    font-size: 11px;
+  }
+
+}
