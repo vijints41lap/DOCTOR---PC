@@ -98,7 +98,7 @@ function App() {
 
         <a
           className="nav-button"
-          href="https://wa.me/919497575392"
+          href="https://wa.me/918301052925"
           target="_blank"
           rel="noreferrer"
         >
@@ -129,7 +129,7 @@ function App() {
             </a>
 
             <a
-              href="https://wa.me/919497575392"
+              href="https://wa.me/918301052925"
               target="_blank"
               rel="noreferrer"
               className="secondary-button"
@@ -248,7 +248,7 @@ function App() {
             </p>
 
             <a
-              href="https://wa.me/919497575392"
+              href="https://wa.me/918301052925"
               target="_blank"
               rel="noreferrer"
               className="primary-button"
@@ -456,7 +456,7 @@ function App() {
                 <div>📞</div>
                 <div>
                   <small>CALL US</small>
-                  <strong>+91 94975 75392</strong>
+                  <strong>+91 8301052925</strong>
                 </div>
               </div>
 
@@ -464,7 +464,7 @@ function App() {
                 <div>💬</div>
                 <div>
                   <small>WHATSAPP</small>
-                  <strong>+91 94975 75392</strong>
+                  <strong>+91 8301052925</strong>
                 </div>
               </div>
 
@@ -518,7 +518,7 @@ function App() {
               ></textarea>
 
               <a
-                href="https://wa.me/919497575392"
+                href="https://wa.me/918301052925"
                 target="_blank"
                 rel="noreferrer"
                 className="submit-button"
@@ -566,7 +566,7 @@ function App() {
       {/* FLOATING WHATSAPP */}
       <a
         className="floating-whatsapp"
-        href="https://wa.me/919497575392"
+        href="https://wa.me/918301052925"
         target="_blank"
         rel="noreferrer"
         aria-label="WhatsApp"
