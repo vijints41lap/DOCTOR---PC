@@ -308,7 +308,7 @@ function App() {
   <div className="work-grid">
 
     <div className="work-card">
-      <img src="/work/work1.jpg" alt="Laptop repair work" />
+      <img src="/work/work 1.jpg" alt="Laptop repair work" />
       <div className="work-overlay">
         <h3>Laptop Repair</h3>
         <p>Professional laptop service and repair</p>
@@ -316,7 +316,7 @@ function App() {
     </div>
 
     <div className="work-card">
-      <img src="/work/work2.jpg" alt="Desktop repair work" />
+      <img src="/work/work 2.jpg" alt="Desktop repair work" />
       <div className="work-overlay">
         <h3>Desktop Service</h3>
         <p>Hardware diagnosis and servicing</p>
@@ -324,7 +324,7 @@ function App() {
     </div>
 
     <div className="work-card">
-      <img src="/work/work3.jpg" alt="SSD and RAM upgrade" />
+      <img src="/work/work 3.jpg" alt="SSD and RAM upgrade" />
       <div className="work-overlay">
         <h3>SSD & RAM Upgrade</h3>
         <p>System upgrade and performance improvement</p>
@@ -332,7 +332,7 @@ function App() {
     </div>
 
     <div className="work-card">
-      <img src="/work/work4.jpg" alt="Computer maintenance" />
+      <img src="/work/work 4.jpg" alt="Computer maintenance" />
       <div className="work-overlay">
         <h3>Computer Maintenance</h3>
         <p>Cleaning, maintenance and optimization</p>
