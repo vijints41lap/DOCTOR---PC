@@ -70,6 +70,28 @@ const workImages = [
   },
 ];
 
+const [name, setName] = useState("");
+const [phone, setPhone] = useState("");
+const [service, setService] = useState("");
+const [message, setMessage] = useState("");
+
+const sendToWhatsApp = () => {
+  const whatsappMessage = `Hello Doctor PC,
+
+I would like to make an enquiry.
+
+Name: ${name}
+Phone: ${phone}
+Service: ${service}
+Requirement: ${message}`;
+
+  const whatsappURL = `https://wa.me/918301052925?text=${encodeURIComponent(
+    whatsappMessage
+  )}`;
+
+  window.open(whatsappURL, "_blank");
+};
+
   return (
     <div className="website">
 
@@ -323,7 +345,7 @@ const workImages = [
 
       </section>
 
-      
+
       {/* OUR WORK */}
 <section className="section work-section" id="work">
 
@@ -588,44 +610,58 @@ const workImages = [
               Tell us what you need help with.
             </p>
 
-            <form>
+          <form onSubmit={(e) => {
+  e.preventDefault();
+  sendToWhatsApp();
+}}>
 
-              <input
-                type="text"
-                placeholder="Your Name"
-              />
+  <input
+    type="text"
+    placeholder="Your Name"
+    value={name}
+    onChange={(e) => setName(e.target.value)}
+    required
+  />
 
-              <input
-                type="tel"
-                placeholder="Phone Number"
-              />
+  <input
+    type="tel"
+    placeholder="Phone Number"
+    value={phone}
+    onChange={(e) => setPhone(e.target.value)}
+    required
+  />
 
-              <select>
-                <option>Select Service</option>
-                <option>Laptop Repair</option>
-                <option>Desktop Repair</option>
-                <option>Windows Installation</option>
-                <option>SSD / RAM Upgrade</option>
-                <option>Laptop Purchase</option>
-                <option>Desktop Purchase</option>
-                <option>Other</option>
-              </select>
+  <select
+    value={service}
+    onChange={(e) => setService(e.target.value)}
+    required
+  >
+    <option value="">Select Service</option>
+    <option>Laptop Repair</option>
+    <option>Desktop Repair</option>
+    <option>Windows Installation</option>
+    <option>SSD / RAM Upgrade</option>
+    <option>Laptop Purchase</option>
+    <option>Desktop Purchase</option>
+    <option>Other</option>
+  </select>
 
-              <textarea
-                placeholder="Tell us about your requirement..."
-                rows="5"
-              ></textarea>
+  <textarea
+    placeholder="Tell us about your requirement..."
+    rows="5"
+    value={message}
+    onChange={(e) => setMessage(e.target.value)}
+    required
+  ></textarea>
 
-              <a
-                href="https://wa.me/918301052925"
-                target="_blank"
-                rel="noreferrer"
-                className="submit-button"
-              >
-                Send via WhatsApp →
-              </a>
+  <button
+    type="submit"
+    className="submit-button"
+  >
+    Send via WhatsApp →
+  </button>
 
-            </form>
+</form>
 
           </div>
 
