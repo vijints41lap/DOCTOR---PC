@@ -309,34 +309,24 @@ function App() {
 
     <div className="work-card">
       <img src="/Work/Work 1.jpg" alt="Laptop repair work" />
-      <div className="work-overlay">
-        <h3>Laptop Repair</h3>
-        <p>Professional laptop service and repair</p>
-      </div>
     </div>
 
     <div className="work-card">
       <img src="/Work/Work 2.jpg" alt="Desktop repair work" />
-      <div className="work-overlay">
-        <h3>Desktop Service</h3>
-        <p>Hardware diagnosis and servicing</p>
-      </div>
     </div>
 
     <div className="work-card">
       <img src="/Work/Work 3.jpg" alt="SSD and RAM upgrade" />
-      <div className="work-overlay">
-        <h3>SSD & RAM Upgrade</h3>
-        <p>System upgrade and performance improvement</p>
-      </div>
     </div>
 
     <div className="work-card">
       <img src="/Work/Work 4.jpg" alt="Computer maintenance" />
-      <div className="work-overlay">
-        <h3>Computer Maintenance</h3>
-        <p>Cleaning, maintenance and optimization</p>
-      </div>
+    </div>
+    <div className="work-card">
+      <img src="/Work/Work 5.jpg" alt="Computer maintenance" />
+    </div>
+    <div className="work-card">
+      <img src="/Work/Work 6.jpg" alt="Computer maintenance" />
     </div>
 
   </div>
