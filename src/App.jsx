@@ -293,6 +293,56 @@ function App() {
 
       </section>
 
+      {/* OUR WORK */}
+<section className="section work-section" id="work">
+
+  <div className="section-heading">
+    <span>OUR WORK</span>
+    <h2>Recent Work</h2>
+    <p>
+      A look at some of our laptop and desktop repair,
+      upgrade and service work.
+    </p>
+  </div>
+
+  <div className="work-grid">
+
+    <div className="work-card">
+      <img src="/work/work1.jpg" alt="Laptop repair work" />
+      <div className="work-overlay">
+        <h3>Laptop Repair</h3>
+        <p>Professional laptop service and repair</p>
+      </div>
+    </div>
+
+    <div className="work-card">
+      <img src="/work/work2.jpg" alt="Desktop repair work" />
+      <div className="work-overlay">
+        <h3>Desktop Service</h3>
+        <p>Hardware diagnosis and servicing</p>
+      </div>
+    </div>
+
+    <div className="work-card">
+      <img src="/work/work3.jpg" alt="SSD and RAM upgrade" />
+      <div className="work-overlay">
+        <h3>SSD & RAM Upgrade</h3>
+        <p>System upgrade and performance improvement</p>
+      </div>
+    </div>
+
+    <div className="work-card">
+      <img src="/work/work4.jpg" alt="Computer maintenance" />
+      <div className="work-overlay">
+        <h3>Computer Maintenance</h3>
+        <p>Cleaning, maintenance and optimization</p>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
       {/* WHY CHOOSE US */}
       <section className="section why-section">
 
@@ -489,7 +539,7 @@ function App() {
               Tell us what you need help with.
             </p>
 
-            <form>
+            <form onSubmit={sendToWhatsApp}>
 
               <input
                 type="text"
