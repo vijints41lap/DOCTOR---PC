@@ -520,6 +520,122 @@ a {
   line-height: 1.6;
 }
 
+/* =========================
+   OUR WORK CAROUSEL
+========================= */
+
+.work-section {
+  overflow: hidden;
+}
+
+.work-carousel {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.work-viewport {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 18px;
+}
+
+.work-track {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.work-slide {
+  min-width: 100%;
+  height: 520px;
+  padding: 0 4px;
+}
+
+.work-slide img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 18px;
+  background: #0e1624;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.work-arrow {
+  flex: 0 0 48px;
+  width: 48px;
+  height: 48px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 50%;
+  background: #111c2d;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 2;
+  transition: 0.3s ease;
+}
+
+.work-arrow:hover {
+  background: #36a3ff;
+  color: #06101e;
+  transform: scale(1.05);
+}
+
+.work-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 22px;
+}
+
+.work-dot {
+  width: 8px;
+  height: 8px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: #3a4658;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.work-dot.active {
+  width: 24px;
+  border-radius: 20px;
+  background: #36a3ff;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 650px) {
+
+  .work-carousel {
+    gap: 8px;
+  }
+
+  .work-arrow {
+    flex: 0 0 38px;
+    width: 38px;
+    height: 38px;
+    font-size: 20px;
+  }
+
+  .work-slide {
+    height: 300px;
+    padding: 0;
+  }
+
+  .work-slide img {
+    border-radius: 14px;
+  }
+
+}
+
 
 /* =========================
    WHY CHOOSE US

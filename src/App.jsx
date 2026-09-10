@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./App.css";
 
 function App() {
@@ -39,6 +40,35 @@ function App() {
         "Software installation, troubleshooting and virus removal."
     }
   ];
+
+  const [currentWork, setCurrentWork] = useState(0);
+
+const workImages = [
+  {
+    src: "/Work/Work 1.jpg",
+    alt: "Laptop repair work",
+  },
+  {
+    src: "/Work/Work 2.jpg",
+    alt: "Desktop repair work",
+  },
+  {
+    src: "/Work/Work 3.jpg",
+    alt: "SSD and RAM upgrade",
+  },
+  {
+    src: "/Work/Work 4.jpg",
+    alt: "Computer maintenance",
+  },
+  {
+    src: "/Work/Work 5.jpg",
+    alt: "Computer service work",
+  },
+  {
+    src: "/Work/Work 6.jpg",
+    alt: "Computer repair work",
+  },
+];
 
   return (
     <div className="website">
@@ -292,7 +322,6 @@ function App() {
         </div>
 
       </section>
-
       {/* OUR WORK */}
 <section className="section work-section" id="work">
 
@@ -305,33 +334,61 @@ function App() {
     </p>
   </div>
 
-  <div className="work-grid">
+  <div className="work-carousel">
 
-    <div className="work-card">
-      <img src="/Work/Work 1.jpg" alt="Laptop repair work" />
+    <button
+      className="work-arrow"
+      onClick={() =>
+        setCurrentWork(
+          (currentWork - 1 + workImages.length) % workImages.length
+        )
+      }
+    >
+      ←
+    </button>
+
+    <div className="work-viewport">
+      <div
+        className="work-track"
+        style={{
+          transform: `translateX(-${currentWork * 100}%)`,
+        }}
+      >
+        {workImages.map((work, index) => (
+          <div className="work-slide" key={index}>
+            <img src={work.src} alt={work.alt} />
+          </div>
+        ))}
+      </div>
     </div>
 
-    <div className="work-card">
-      <img src="/Work/Work 2.jpg" alt="Desktop repair work" />
-    </div>
-
-    <div className="work-card">
-      <img src="/Work/Work 3.jpg" alt="SSD and RAM upgrade" />
-    </div>
-
-    <div className="work-card">
-      <img src="/Work/Work 4.jpg" alt="Computer maintenance" />
-    </div>
-    <div className="work-card">
-      <img src="/Work/Work 5.jpg" alt="Computer maintenance" />
-    </div>
-    <div className="work-card">
-      <img src="/Work/Work 6.jpg" alt="Computer maintenance" />
-    </div>
+    <button
+      className="work-arrow"
+      onClick={() =>
+        setCurrentWork(
+          (currentWork + 1) % workImages.length
+        )
+      }
+    >
+      →
+    </button>
 
   </div>
-</section>
 
+  <div className="work-dots">
+    {workImages.map((_, index) => (
+      <button
+        key={index}
+        className={`work-dot ${
+          currentWork === index ? "active" : ""
+        }`}
+        onClick={() => setCurrentWork(index)}
+        aria-label={`Go to work ${index + 1}`}
+      ></button>
+    ))}
+  </div>
+
+</section>    
 
       {/* WHY CHOOSE US */}
       <section className="section why-section">
