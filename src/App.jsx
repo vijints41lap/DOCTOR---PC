@@ -322,6 +322,8 @@ const workImages = [
         </div>
 
       </section>
+
+      
       {/* OUR WORK */}
 <section className="section work-section" id="work">
 
