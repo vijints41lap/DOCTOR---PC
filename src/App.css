@@ -1199,16 +1199,6 @@ footer {
     display: none;
   }
 
-  .instagram-nav {
-    display: flex;
-    font-size: 11px;
-    gap: 5px;
-  }
-
-  .instagram-nav svg {
-    width: 24px;
-    height: 24px;
-  }
 
   .nav-button {
     display: block;
