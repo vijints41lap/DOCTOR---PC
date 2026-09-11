@@ -88,11 +88,12 @@ a {
 }
 
 .instagram-nav {
-  padding: 8px 16px;
+  padding: 11px 20px;
   border: 1px solid #ff4fd8;
-  border-radius: 8px;
+  border-radius: 7px;
   color: white;
   text-decoration: none;
+  font-size: 14px;
   font-weight: 600;
   transition: 0.3s ease;
 }
@@ -1202,6 +1203,12 @@ footer {
 
   .nav-button {
     display: block;
+    padding: 8px 12px;
+    font-size: 11px;
+  }
+
+
+  .instagram-nav {
     padding: 8px 12px;
     font-size: 11px;
   }
