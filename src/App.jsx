@@ -85,7 +85,7 @@ Phone: ${phone}
 Service: ${service}
 Requirement: ${message}`;
 
-  const whatsappURL = `https://wa.me/918301052925?text=${encodeURIComponent(
+  const whatsappURL = `https://wa.me/919497575392?text=${encodeURIComponent(
     whatsappMessage
   )}`;
 
@@ -111,7 +111,7 @@ Requirement: ${message}`;
 
         <a
           className="instagram-nav"
-          href="https://www.instagram.com/Amalu_47_/"
+          href="https://www.instagram.com/_vi_jin/"
           target="_blank"
           rel="noreferrer"
           aria-label="Instagram"
@@ -150,7 +150,7 @@ Requirement: ${message}`;
 
         <a
           className="nav-button"
-          href="https://wa.me/918301052925"
+          href="https://wa.me/919497575392"
           target="_blank"
           rel="noreferrer"
         >
@@ -181,7 +181,7 @@ Requirement: ${message}`;
             </a>
 
             <a
-              href="https://wa.me/918301052925"
+              href="https://wa.me/919497575392"
               target="_blank"
               rel="noreferrer"
               className="secondary-button"
@@ -300,7 +300,7 @@ Requirement: ${message}`;
             </p>
 
             <a
-              href="https://wa.me/918301052925"
+              href="https://wa.me/919497575392"
               target="_blank"
               rel="noreferrer"
               className="primary-button"
@@ -577,7 +577,7 @@ Requirement: ${message}`;
                 <div>📞</div>
                 <div>
                   <small>CALL US</small>
-                  <strong>+91 8301052925</strong>
+                  <strong>+91 9497575392</strong>
                 </div>
               </div>
 
@@ -585,7 +585,7 @@ Requirement: ${message}`;
                 <div>💬</div>
                 <div>
                   <small>WHATSAPP</small>
-                  <strong>+91 8301052925</strong>
+                  <strong>+91 9497575392</strong>
                 </div>
               </div>
 
@@ -701,7 +701,7 @@ Requirement: ${message}`;
       {/* FLOATING WHATSAPP */}
       <a
         className="floating-whatsapp"
-        href="https://wa.me/918301052925"
+        href="https://wa.me/919497575392"
         target="_blank"
         rel="noreferrer"
         aria-label="WhatsApp"
