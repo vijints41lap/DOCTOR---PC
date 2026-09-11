@@ -74,24 +74,25 @@ a {
 
 .nav-button {
   padding: 11px 20px;
-  border: 1px solid #36a3ff;
+  border: 1px solid #25D366;
   border-radius: 7px;
-  color: #36a3ff;
+  color: #25D366;
   font-size: 14px;
   font-weight: 600;
   transition: 0.3s;
 }
 
 .nav-button:hover {
-  background: #36a3ff;
-  color: #06101e;
+  background: #25D366;
+  color: white;
+  box-shadow: 0 0 15px rgba(37, 211, 102, 0.5);
 }
 
 .instagram-nav {
   padding: 11px 20px;
-  border: 1px solid #ff4fd8;
+  border: 1px solid #E1306C;
   border-radius: 7px;
-  color: white;
+  color: #E1306C;
   text-decoration: none;
   font-size: 14px;
   font-weight: 600;
@@ -99,9 +100,9 @@ a {
 }
 
 .instagram-nav:hover {
-  background: #ff4fd8;
+  background: #E1306C;
   color: white;
-  box-shadow: 0 0 15px rgba(255, 79, 216, 0.5);
+  box-shadow: 0 0 15px rgba(255, 48, 108, 0.5);
 }
 
 /* =========================
@@ -1075,7 +1076,7 @@ footer {
   }
 
   .hero {
-    padding: 60px 5%;
+    padding: 110px 5% 60px;
   }
 
   .hero h1 {
