@@ -547,7 +547,7 @@ Requirement: ${message}`;
                 <div>📞</div>
                 <div>
                   <small>CALL US</small>
-                  <strong>+91 9497575392</strong>
+                  <strong>+91 830105292</strong>
                 </div>
               </div>
 
@@ -555,7 +555,7 @@ Requirement: ${message}`;
                 <div>💬</div>
                 <div>
                   <small>WHATSAPP</small>
-                  <strong>+91 9497575392</strong>
+                  <strong>+91 830105292</strong>
                 </div>
               </div>
 
