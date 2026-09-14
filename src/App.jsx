@@ -111,7 +111,7 @@ Requirement: ${message}`;
 
         <a
           className="instagram-nav"
-          href="https://www.instagram.com/_vi_jin/"
+          href="https://www.instagram.com/Amalu_47_/"
           target="_blank"
           rel="noreferrer"
         >
